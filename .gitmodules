@@ -1522,3 +1522,9 @@
 [submodule "myelin/myelin-kicad.pretty"]
 	path = myelin/myelin-kicad.pretty
 	url = https://github.com/myelin/myelin-kicad.pretty
+[submodule "espressif-libs"]
+	path = kicad-libraries
+	url = git@github.com:espressif/kicad-libraries.git
+[submodule "OPL_Kicad_Library"]
+	path = OPL_Kicad_Library
+	url = git@github.com:Seeed-Studio/OPL_Kicad_Library.git
