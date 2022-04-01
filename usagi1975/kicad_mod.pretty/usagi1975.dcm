@@ -1,0 +1,214 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V
+D +12V
+K 12, PW, POWER, PWR
+$ENDCMP
+#
+$CMP +3.3V
+D +3.3V
+K 3.3, PW, POWER, PWR
+$ENDCMP
+#
+$CMP +5V
+D +5V
+K 5, PW, POWER, PWR
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP BATTERY
+D Cell Battery
+K Cell
+$ENDCMP
+#
+$CMP Bridge_Diode
+D Bridge Diode
+K BD
+$ENDCMP
+#
+$CMP C
+D Capacitor (non polarized)
+K C
+$ENDCMP
+#
+$CMP CONN_01X02
+D 1x connector
+K con
+$ENDCMP
+#
+$CMP CONN_01X03
+D 1x3 connector
+K con
+$ENDCMP
+#
+$CMP CONN_01X04
+D 1x4 connector
+K con
+$ENDCMP
+#
+$CMP CONN_02X02
+D 2x2 connector
+K con
+$ENDCMP
+#
+$CMP CONN_02X03
+D 2x3 connector
+K con
+$ENDCMP
+#
+$CMP CONN_02X04
+D 2x4 connector
+K con
+$ENDCMP
+#
+$CMP CP
+D Capacitor (non polarized)
+K C
+$ENDCMP
+#
+$CMP D
+D Diode
+K D DIODE
+$ENDCMP
+#
+$CMP D-SCH
+D Schottky Diode
+K D DIODE
+$ENDCMP
+#
+$CMP D-SCH2
+D Schottky Diode (regacy)
+K D DIODE
+$ENDCMP
+#
+$CMP D-Zener
+D Zener Diode
+K D DIODE
+$ENDCMP
+#
+$CMP D-Zener2
+D Zener Diode (regacy)
+K D DIODE
+$ENDCMP
+#
+$CMP D2
+D Diode (regacy)
+K D DIODE
+$ENDCMP
+#
+$CMP DC_JACK
+D DC Jack
+K Jack
+$ENDCMP
+#
+$CMP FUSE
+D Fuse
+K Fuse
+$ENDCMP
+#
+$CMP GND
+D GND
+K G, POWER, PWR
+$ENDCMP
+#
+$CMP IND
+D Inductor
+K I L
+$ENDCMP
+#
+$CMP IND2
+D Inductor
+K I L
+$ENDCMP
+#
+$CMP LED
+D LED
+K LED
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MOS_N
+D NPN MOSFET
+K npn, mos
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOS_P
+D PNP MOSFET
+K pnp, mos
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP NPN
+D NPN Transistor
+K npn
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP PNP
+D PNP Transistor
+K pnp
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R
+$ENDCMP
+#
+$CMP R2
+D Resistance (regacy)
+K R
+$ENDCMP
+#
+$CMP Regulator-Adj
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP SW1
+D Switch
+K Sw
+$ENDCMP
+#
+$CMP SW_PUSH
+D Push Button
+K Sw
+$ENDCMP
+#
+$CMP VCC
+K POWER, PWR
+$ENDCMP
+#
+$CMP VR
+D Variable Resistance
+K R VR
+$ENDCMP
+#
+$CMP VR2
+D Variable Resistance (regacy)
+K R VR
+$ENDCMP
+#
+$CMP VSS
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library

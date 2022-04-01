@@ -1,0 +1,7 @@
+Plot file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors-F.Cu.gbr' created.
+Plot file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors-B.Cu.gbr' created.
+Plot file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors-B.SilkS.gbr' created.
+Plot file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors-F.SilkS.gbr' created.
+Plot file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors-B.Mask.gbr' created.
+Plot file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors-F.Mask.gbr' created.
+Plot file '/Users/axel/Documents/Kicad/ESP-Sensors/ESP-Sensors-Edge.Cuts.gbr' created.

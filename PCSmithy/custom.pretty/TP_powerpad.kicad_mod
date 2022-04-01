@@ -1,0 +1,9 @@
+(module TP_powerpad (layer F.Cu) (tedit 581DBEFB)
+  (fp_text reference TP101 (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TP (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd roundrect (at 0 0) (size 1.5 1.5) (layers F.Cu F.Mask)(roundrect_rratio 0.25))
+)

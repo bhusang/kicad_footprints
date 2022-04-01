@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP COAXIAL
+D Coaxial Cable Connector
+K Coax Connector, Coaxial Connector
+$ENDCMP
+#
+$CMP CONN_001
+D 1 pin connector
+$ENDCMP
+#
+$CMP CONN_002
+D 2 pin connector
+$ENDCMP
+#
+$CMP CONN_003
+D 3 pin connector
+$ENDCMP
+#
+$CMP CONN_004
+D 4 pin connector
+$ENDCMP
+#
+$CMP CONN_005
+D 5 pin connector
+$ENDCMP
+#
+$CMP CONN_006
+D 6 pin connector
+$ENDCMP
+#
+$CMP CONN_007
+D 7 pin connector
+$ENDCMP
+#
+$CMP CONN_008
+D 8 pin connector
+$ENDCMP
+#
+$CMP CONN_009
+D 9 pin connector
+$ENDCMP
+#
+$CMP CONN_010
+D 10 pin connector
+$ENDCMP
+#
+$CMP CONN_040
+D 40 pin connector
+$ENDCMP
+#
+$CMP JTAG_ARM_2x5
+D 10-pin ARM Cortex JTAG Connector
+F ../Datasheets/JTAG_ARM_Cortex.pdf
+$ENDCMP
+#
+$CMP JTAG_XILINX_2x7
+D 14-pin Xilinx JTAG Connector
+$ENDCMP
+#
+#End Doc Library

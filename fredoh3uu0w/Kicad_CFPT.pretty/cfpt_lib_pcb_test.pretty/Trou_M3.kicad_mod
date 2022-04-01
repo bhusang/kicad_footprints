@@ -1,0 +1,16 @@
+(module Trou_M3 (layer F.Cu) (tedit 59DB76B1)
+  (fp_text reference H1 (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Trou_M3 (at 0 -3.81) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 3 0) (layer F.SilkS) (width 0.25))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu)
+    (clearance 2))
+  (model ../../../../../../data/git/kicad/cfpt_lib/3d/Vis_M3_Card_Holder.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

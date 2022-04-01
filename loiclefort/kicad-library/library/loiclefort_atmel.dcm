@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SAMG55J19-MU
+D QFN64, 512K Flash, 160K RAM, 120MHz, CortexM4
+K ARM 32bit Microcontroller 120MHz CortexM4
+F http://www.atmel.com/Images/Atmel-11289-32-bit-Cortex-M4-Microcontroller-SAM-G55_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

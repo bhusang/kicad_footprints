@@ -1,0 +1,13 @@
+(module SVTmaker:Jumper_2P_2mm (layer F.Cu) (tedit 5B84C86F)
+  (attr smd)
+  (fp_text reference JP1 (at -0.08 -2) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (fp_text value J2 (at 0.08 1.98) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.32 1.09) (end 0.34 1.09) (layer F.CrtYd) (width 0.15))
+  (fp_line (start -0.32 -1.07) (end 0.32 -1.07) (layer F.CrtYd) (width 0.15))
+  (pad 2 smd rect (at 1.11 0.01) (size 2 2) (layers F.Cu F.Mask))
+  (pad 1 smd rect (at -1.1 0.01) (size 2 2) (layers F.Cu F.Mask))
+)

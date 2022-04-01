@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TC4425AVOA
+D TEXAS INSTRUMENTS  SN65HVD75D  RS485 Transceiver, 3V-3.6V Supply, SOIC-8
+K Low Power Half-Duplex RS-485 Transceiver 20Mbps
+F http://www.ti.com/lit/ds/sllse11d/sllse11d.pdf
+$ENDCMP
+#
+$CMP LMV321
+D Low-Voltage Rail-to-Rail Output Operational Amplifiers
+K ampliop
+F http://www.ti.com/lit/ds/symlink/lmv324.pdf
+$ENDCMP
+#
+#End Doc Library

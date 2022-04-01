@@ -1,0 +1,77 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3_A
+D Power flag, +3.3V
+K power-flag
+$ENDCMP
+#
+$CMP +3V3_B
+D Power flag, +3.3V
+K power-flag
+$ENDCMP
+#
+$CMP +3V3_C
+D Power flag, +3.3V
+K power-flag
+$ENDCMP
+#
+$CMP +3V3_U
+D Power flag, +3.3V
+K power-flag
+$ENDCMP
+#
+$CMP AD7995
+D 4-bit I2C-bus and SMBus IO port, SOIC8 package
+K i2c io port
+F http://www.nxp.com/documents/data_sheet/PCA9536.pdf
+$ENDCMP
+#
+$CMP DMG9926UDM
+D 1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6
+K Dual N-Channel MOSFET Logic Level
+F http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf
+$ENDCMP
+#
+$CMP FDG6335N
+D 0.7A Id, 20V Vds, Dual N-Channel MOSFET, 300mOhm Ron, SC-70-6
+K Dual N-Channel MOSFET
+F http://www.gneic.com/product/datasheet/FDG6335N-1122853.pdf
+$ENDCMP
+#
+$CMP GND_A
+D Power flag, ground
+K power-flag
+$ENDCMP
+#
+$CMP GND_B
+D Power flag, ground
+K power-flag
+$ENDCMP
+#
+$CMP GND_C
+D Power flag, ground
+K power-flag
+$ENDCMP
+#
+$CMP INA219AID
+D IC CURRENT MONITOR 1% SOT23-8
+K 296-23770-1-ND Zero-Drift
+F http://www.ti.com/lit/ds/symlink/ina219.pdf
+$ENDCMP
+#
+$CMP VCC_A
+D Power flag, VCC
+K power-flag
+$ENDCMP
+#
+$CMP VCC_B
+D Power flag, VCC
+K power-flag
+$ENDCMP
+#
+$CMP VDYN
+D Power flag, bus voltage
+K power-flag USB
+$ENDCMP
+#
+#End Doc Library

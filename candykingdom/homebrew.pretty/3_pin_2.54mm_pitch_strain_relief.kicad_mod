@@ -1,0 +1,11 @@
+(module 3_pin_2.54mm_pitch_strain_relief (layer F.Cu) (tedit 5D34FD93)
+  (fp_text reference REF** (at 0 2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 3_pin_2.54mm_pitch_strain_relief (at 0 -1.75) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1.8) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -2.54 0) (size 1.8 1.8) (drill 1.8) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 1.8) (layers *.Cu *.Mask))
+)

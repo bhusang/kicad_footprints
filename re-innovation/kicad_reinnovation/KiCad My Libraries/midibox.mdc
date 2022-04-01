@@ -1,0 +1,15 @@
+PCBNEW-LibDoc----V1  12/01/2011 10:32:26 PM
+#
+$MODULE DO-35
+Li DO-35
+Cd DIODE
+Kw DIODE
+$EndMODULE
+#
+$MODULE LED-3mm-bicolor
+Li LED-3mm-bicolor
+Cd LED 3mm - Lead pitch 100mil (2,54mm)
+Kw LED led 3mm 3MM 100mil 2,54mm
+$EndMODULE
+#
+$EndLIBDOC

@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_01X04
+D Connector, single row, 01x04, pin header
+K connector
+$ENDCMP
+#
+$CMP HT7333
+D 3.3V power regulator
+$ENDCMP
+#
+$CMP PROG_CONN
+D Connector, single row, 01x05, pin header
+K connector
+$ENDCMP
+#
+#End Doc Library

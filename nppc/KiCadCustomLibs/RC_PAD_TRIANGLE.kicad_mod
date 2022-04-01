@@ -1,0 +1,9 @@
+(module RC_PAD_TRIANGLE (layer F.Cu) (tedit 59EE004C)
+  (fp_text reference J4 (at 0 1.6) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value RC (at -0.1 -1.6) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd trapezoid (at 0 0) (size 0.8 0.8) (rect_delta 0 0.799 ) (layers F.Cu F.Paste F.Mask))
+)

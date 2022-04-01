@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC860C
+D BC807-40, 45V Vce, 0.8A Ic, PNP, SOT-23
+K BC807 BC327 Equivalent
+F http://www.fairchildsemi.com/ds/BC/BC807.pdf
+$ENDCMP
+#
+#End Doc Library

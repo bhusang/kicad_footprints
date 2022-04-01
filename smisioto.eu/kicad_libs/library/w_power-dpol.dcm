@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DM73xx
+D Digital power manager
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DM73xx.pdf
+$ENDCMP
+#
+$CMP DP7007
+D 7A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP7007G.pdf
+$ENDCMP
+#
+$CMP DP7010
+D 10A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP7010G.pdf
+$ENDCMP
+#
+$CMP DP7015
+D 15A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP7015G.pdf
+$ENDCMP
+#
+$CMP DP7115
+D 15A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP7115G.pdf
+$ENDCMP
+#
+$CMP DP7120
+D 20A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP7120G.pdf
+$ENDCMP
+#
+$CMP DP7130
+D 30A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP7130G.pdf
+$ENDCMP
+#
+$CMP DP8105
+D 5A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP8105G.pdf
+$ENDCMP
+#
+$CMP DP8110
+D 10A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP8110G.pdf
+$ENDCMP
+#
+$CMP DP8120
+D 20A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP8120G.pdf
+$ENDCMP
+#
+$CMP DP8140
+D 40A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP8140G.pdf
+$ENDCMP
+#
+$CMP DP8160
+D 60A Intelligent step-down Point-Of-Load converter
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Power-One/PONE_DP8160G.pdf
+$ENDCMP
+#
+#End Doc Library

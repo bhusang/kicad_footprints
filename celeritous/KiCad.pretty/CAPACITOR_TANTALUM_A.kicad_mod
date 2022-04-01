@@ -1,0 +1,13 @@
+(module CAPACITOR_TANTALUM_A (layer F.Cu) (tedit 58E2ABB6)
+  (fp_text reference REF** (at -0.127 -1.905) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (fp_text value CAPACITOR_TANTALUM_A (at 6.477 -3.429) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user + (at -2.667 -0.127) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -1.3 0) (size 1.8 1.25) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 1.3 0) (size 1.8 1.25) (layers F.Cu F.Paste F.Mask))
+)

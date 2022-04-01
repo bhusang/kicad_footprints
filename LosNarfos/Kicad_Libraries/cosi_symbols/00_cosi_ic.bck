@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DAC7311
+D DACx311 2-V to 5.5-V, 80-μA, 8-, 10-, and 12-Bit
+K DAC
+$ENDCMP
+#
+$CMP SCA3300
+D SCA3300-D01
+K Acceleration, sensor, murata
+$ENDCMP
+#
+$CMP SN74LV1T34
+D Single Power Supply Single Buffer GATE CMOS Logic Level Shifter
+K level shifter, CMOS, single
+$ENDCMP
+#
+$CMP TPS62743
+D 300/400
+$ENDCMP
+#
+#End Doc Library

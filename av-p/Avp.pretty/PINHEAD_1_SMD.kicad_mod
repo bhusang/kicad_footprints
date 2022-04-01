@@ -1,0 +1,18 @@
+#template /50AB8830
+
+(module PINHEAD_1_SMD (layer F.Cu) (tedit 5A90658B)
+  (descr "2.54 pinhead connector")
+  (tags "PINHEAD 2.54")
+  (fp_text reference X1 (at 2.4511 -2.1996) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value PINHEAD_2.54_1_SMD (at 1.3005 2.1996) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (pad 1 smd rect (at 0 0) (size 1.5 4) (layers F.Cu F.Paste F.Mask))
+  (model pin_array\pins_array_4x1.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

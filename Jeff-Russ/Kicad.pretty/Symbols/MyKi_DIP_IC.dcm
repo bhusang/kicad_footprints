@@ -1,0 +1,34 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BBD-Short
+D BBD-Short
+K BBD short MN3209
+$ENDCMP
+#
+$CMP BBD-Short-Clk
+D BBD-Short Clock
+K MN3102 BBD short clock
+$ENDCMP
+#
+$CMP Dual-Op-Amp
+D Dual Op-Amp
+K dual op-amp opamp operational amplifier
+$ENDCMP
+#
+$CMP NE571
+D NE571 Compandor
+K NE571 compandor compander
+$ENDCMP
+#
+$CMP PT2399 
+D Echo Processor IC
+K CMOS ADC DAC 44K Digital processing VCO
+F http://www.princeton.com.tw/Portals/0/Product/PT2399_1.pdf
+$ENDCMP
+#
+$CMP Quad-Op-Amp
+D Quad Op-Amp
+K quad opamp op-amp operational amplifier
+$ENDCMP
+#
+#End Doc Library

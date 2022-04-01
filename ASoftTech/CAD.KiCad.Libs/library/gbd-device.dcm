@@ -1,0 +1,62 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LCA110
+D 555-series timer IC
+K timer
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP LD29150DT33R
+D Linear Regulator +3.3V, 1.5A, 30V max input, LDO
+K POWER REGUL DPACK DPAK
+$ENDCMP
+#
+$CMP LD29150DT50R
+D Linear Regulator +5V, 1.5A, 30V max input, LDO
+$ENDCMP
+#
+$CMP LED_Dual_2pin_Gbd
+D LED dual, 2pin version
+K led diode bicolor dual
+$ENDCMP
+#
+$CMP LM555N_Gbd
+D 555-series timer IC
+K timer
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP NE555
+D 555-series timer IC
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PSU_12V
+D 12V Mains Power Supply
+$ENDCMP
+#
+$CMP R-78E3.3-0.5
+D DC/DC converter high efficiency, wide voltage input range, Voltage Regulator, Io up to 500mA, Fixed Vo, DPAK.
+K regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP R-78E5.0-0.5
+D DC/DC converter high efficiency, wide voltage input range, Voltage Regulator, Io up to 500mA, Fixed Vo, DPAK.
+K regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP TXC-7W-20.000MBB-T
+D OSC, 20.000MHZ, 3.3V, SMD, 7.0X5.0
+K OSC
+$ENDCMP
+#
+$CMP UCC27714D
+D 555-series timer IC
+K timer
+F ns/lm555.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+(module 1PAD (layer F.Cu) (tedit 580A4AAE)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 1PAD (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" smd trapezoid (at 0 0) (size 3 2) (rect_delta 0 1 ) (layers F.Cu F.Paste F.Mask))
+)

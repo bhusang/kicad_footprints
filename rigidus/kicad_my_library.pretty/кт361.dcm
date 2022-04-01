@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP КТ361
+D 45V Vce, 0.1A Ic, PNP, Small Signal Transistor, TO-92
+K KT361 PNP Transistor
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP КТ315
+D 45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92
+K KT315 NPN Transistor
+$ENDCMP
+#
+#End Doc Library

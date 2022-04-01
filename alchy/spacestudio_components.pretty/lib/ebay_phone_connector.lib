@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# ebay_phone_connector
+#
+DEF ebay_phone_connector CONN_AUDIO 0 40 Y Y 1 F N
+F0 "CONN_AUDIO" 0 400 60 H V C CNN
+F1 "ebay_phone_connector" 0 500 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -350 150 350 -500 0 1 0 N
+S -50 -300 50 -350 0 1 0 N
+P 2 0 1 0  -50 -350  -350 -350 N
+P 4 0 1 0  -350 -150  -100 -150  -50 -200  -100 -250 N
+P 4 0 1 0  -350 50  -100 50  -50 0  -100 -50 N
+P 4 0 1 0  -150 150  -150 300  150 300  150 150 N
+X ~ 1 -550 50 200 R 50 50 1 1 I
+X ~ 2 -550 -150 200 R 50 50 1 1 I
+X ~ 3 -550 -350 200 R 50 50 1 1 I
+X ~ 4 550 -350 200 L 50 50 1 1 I
+X ~ 5 550 -150 200 L 50 50 1 1 I
+X ~ 6 550 50 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

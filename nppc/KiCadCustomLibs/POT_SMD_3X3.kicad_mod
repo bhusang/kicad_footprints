@@ -1,0 +1,16 @@
+(module POT_SMD_3X3 (layer F.Cu) (tedit 5B2CD5D7)
+  (fp_text reference REF** (at 0 3.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value POT (at 0 -4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 1 -1.5) (end 1.5 -1.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.5 -1.5) (end 1.5 0.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.5 0.5) (end -1.5 -1.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.5 -1.5) (end -1 -1.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.5 1.5) (end 0.5 1.5) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -1.4 1.6) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 -1.7) (size 1.6 1.6) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 1.4 1.6) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask))
+)

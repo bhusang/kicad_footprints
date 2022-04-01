@@ -1,0 +1,11 @@
+(module DIODE_152AF (layer F.Cu) (tedit 58E2BCA4)
+  (fp_text reference REF** (at 0.74 -1.07) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (fp_text value DIODE_152AF (at 2.45 -2.13) (layer F.Fab) hide
+    (effects (font (size 0.65 0.65) (thickness 0.1)))
+  )
+  (fp_line (start 0.43 -0.15) (end 0.43 0.16) (layer F.SilkS) (width 0.1))
+  (pad A smd rect (at -0.215 0) (size 0.31 0.31) (layers F.Cu F.Paste F.Mask))
+  (pad K smd rect (at 0.2 0) (size 0.31 0.31) (layers F.Cu F.Paste F.Mask))
+)

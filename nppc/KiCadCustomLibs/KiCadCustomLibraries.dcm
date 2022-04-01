@@ -1,0 +1,96 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DIO6970
+D 2A, 500KHz PWM Buck DC/DC Converter
+K 2A 500KHz PWM Buck DC/DC
+$ENDCMP
+#
+$CMP D_Bridge_AA+-
+D Diode bridge (pins: 1=+, 2=-, 3=AC, 4=AC)
+K rectifier acdc
+$ENDCMP
+#
+$CMP EFM8BB10F8I-A-QSOP24
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +125 C, QSOP24
+K 8051 microcontroller PWM UART SPI I2C ADC QSOP24
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8SB1x-QSOP24
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +85 C, QSOP24
+K 8051 microcontroller PWM UART SPI I2C ADC QSOP24
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP INA168
+D High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina138.pdf
+$ENDCMP
+#
+$CMP INA181
+D Current Shunt Monitor, 26V, SOT-23-6
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina181.pdf
+$ENDCMP
+#
+$CMP Joystick
+D Rotary switch, 4-bit encoding
+K rotary hex
+$ENDCMP
+#
+$CMP MAX4624_5
+D Low-Voltage SPDT Analog Switch
+K SWITCH
+F https://datasheets.maximintegrated.com/en/ds/MAX4624-MAX4625.pdf
+$ENDCMP
+#
+$CMP MAX9634
+D nanoPower, 4-Bump UCSP/SOT23,
+K highside HS current sense amplifier
+F https://datasheets.maximintegrated.com/en/ds/MAX9634.pdf
+$ENDCMP
+#
+$CMP MAXM15465
+D DC/DC step down 300mA
+F https://datasheets.maximintegrated.com/en/ds/MAXM15465-MAXM15467.pdf
+$ENDCMP
+#
+$CMP NCP81258
+D Synchronous Buck MOSFET
+$ENDCMP
+#
+$CMP NJM11100
+D Adjustable Low Dropout Regulator w/Reverse Current Protection
+$ENDCMP
+#
+$CMP NMOS8pin
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+F ~
+$ENDCMP
+#
+$CMP PMOS8pin
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+F ~
+$ENDCMP
+#
+$CMP TP4056-SO8
+D USB Powered Li+ Charger, 4.1V/4.2V battery, 1A charging current
+K USB Battery Charger
+$ENDCMP
+#
+$CMP TPS5420x
+D Synchronous Buck Mono-Color or IR LED Driver
+K LED
+F https://www.ti.com/lit/ds/symlink/tps54201.pdf
+$ENDCMP
+#
+$CMP TPS562231
+D 2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT563
+K step-down dcdc voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps563200.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,26 @@
+#template CAE
+
+(module CAPACITOR_ELECTROLYTIC_8MM (layer F.Cu) (tedit 5A6FB5C3)
+  (descr CAPACITOR_ELECTROLYTIC_8MM)
+  (fp_text reference C23 (at 0 -4.78) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (fp_text value 100uF (at 0 4.78) (layer F.SilkS) hide
+    (effects (font (size 0.65 0.65) (thickness 0.0975)))
+  )
+  (fp_line (start -4 -2.4) (end -4 -0.7) (layer F.SilkS) (width 0.2))
+  (fp_line (start -4 2.4) (end -4 0.7) (layer F.SilkS) (width 0.2))
+  (fp_line (start -2.4 -4) (end 4 -4) (layer F.SilkS) (width 0.2))
+  (fp_line (start -2.4 4) (end 4 4) (layer F.SilkS) (width 0.2))
+  (fp_line (start -2.4 -4) (end -4 -2.4) (layer F.SilkS) (width 0.2))
+  (fp_line (start -2.4 4) (end -4 2.4) (layer F.SilkS) (width 0.2))
+  (fp_line (start 4 -4) (end 4 -0.7) (layer F.SilkS) (width 0.2))
+  (fp_line (start 4 4) (end 4 0.7) (layer F.SilkS) (width 0.2))
+  (pad 1 smd rect (at -3.25 0) (size 3.4 1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 3.25 0) (size 3.4 1) (layers F.Cu F.Paste F.Mask))
+  (model CAPACITOR_ELECTROLYTIC_8MM.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
+)

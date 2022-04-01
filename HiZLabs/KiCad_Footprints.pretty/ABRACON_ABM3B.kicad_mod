@@ -1,0 +1,18 @@
+(module ABRACON_ABM3B (layer F.Cu)
+  (fp_text reference >NAME (at 0 -0.7) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text value >VALUE (at 0 0.8) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_line (start -1.1 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.7 0.2) (end -0.7 0.6) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.5 -1.6) (end -2.5 1.6) (layer F.SilkS) (width 0.15))
+  (fp_line (start 2.5 1.6) (end 2.5 -1.6) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.5 1.6) (end 2.5 1.6) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.5 -1.6) (end 2.5 -1.6) (layer F.SilkS) (width 0.15))
+  (pad 4 smd rect (at -2 -1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 2 -1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -2 1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2 1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
+)

@@ -1,0 +1,17 @@
+(module ELNA_DSK (layer F.Cu) (tedit 57095619)
+  (descr "ELNA DSK supercap")
+  (fp_text reference G00 (at 6.2 2.3) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text value G*** (at 0.05 0.5) (layer F.SilkS) hide
+    (effects (font (size 0.1524 0.1524) (thickness 0.0305)))
+  )
+  (fp_circle (center 0 5.1) (end 3.5 5) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at 0 0) (size 5 2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 10.2) (size 4 1.8) (layers F.Cu F.Paste F.Mask))
+  (model Resistors_SMD/R_0402.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

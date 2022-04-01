@@ -1,0 +1,97 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+TRANS_CSD17318Q2T
+$EndINDEX
+$MODULE TRANS_CSD17318Q2T
+Po 0 0 0 15 00000000 00000000 ~~
+Li TRANS_CSD17318Q2T
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0.733794 -1.71218 0.801956 0.801956 0 0.05 N V 21 "TRANS_CSD17318Q2T"
+T1 1.34116 1.79354 0.80069 0.80069 0 0.05 N V 21 "VAL**"
+DS -1 -1 1 -1 0.127 24
+DS 1 -1 1 1 0.127 24
+DS 1 1 -1 1 0.127 24
+DS -1 1 -1 -1 0.127 24
+DS -1 -1 1 -1 0.127 21
+DS -1 1 1 1 0.127 21
+DC -1.7 -0.7 -1.6 -0.7 0.127 21
+DP 0 0 0 0 4 0 19
+Dl -0.450916 -0.755
+Dl 0.45 -0.755
+Dl 0.45 0.105214
+Dl -0.450916 0.105214
+DP 0 0 0 0 4 0 19
+Dl -0.255662 0.5
+Dl 0.445 0.5
+Dl 0.445 0.802077
+Dl -0.255662 0.802077
+$PAD
+Sh "1" R 0.45 0.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.975 -0.65
+$EndPAD
+$PAD
+Sh "2" R 0.45 0.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.975 0
+$EndPAD
+$PAD
+Sh "3" R 0.45 0.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.975 0.65
+$EndPAD
+$PAD
+Sh "4" R 0.45 0.3 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.975 0.65
+$EndPAD
+$PAD
+Sh "5" R 0.45 0.3 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.975 0
+$EndPAD
+$PAD
+Sh "6" R 0.45 0.3 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.975 -0.65
+$EndPAD
+$PAD
+Sh "7" R 0.75 0.3 0 0 0
+At SMD N 00888000
+.SolderMask 0
+Ne 0 ""
+Po 0.095 0.65
+$EndPAD
+$PAD
+Sh "8" R 1 0.95 0 0 0
+At SMD N 00888000
+.SolderMask 0
+Ne 0 ""
+Po 0 -0.325
+$EndPAD
+$EndMODULE TRANS_CSD17318Q2T

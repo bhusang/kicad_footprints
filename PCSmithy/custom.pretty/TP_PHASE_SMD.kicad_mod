@@ -1,0 +1,9 @@
+(module TP_PHASE_SMD (layer F.Cu) (tedit 58958270)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TP_PHASE_SMD (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd roundrect (at 0 0) (size 1.4 1.4) (layers F.Cu F.Mask)(roundrect_rratio 0.25))
+)

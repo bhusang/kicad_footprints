@@ -1,0 +1,12 @@
+(module MyFootprints:small_no_jumper (layer F.Cu) (tedit 568BCA30)
+  (fp_text reference JP1 (at 0 2.54) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Jumper_NO_Small (at 0 -2.54) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 2 smd oval (at 1.27 0) (size 2 2.54) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.5))
+  (pad 1 smd oval (at -1.27 0) (size 2 2.54) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.5))
+)

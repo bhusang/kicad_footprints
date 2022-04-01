@@ -1,0 +1,1 @@
+# digipict-kicad-footprint.pretty

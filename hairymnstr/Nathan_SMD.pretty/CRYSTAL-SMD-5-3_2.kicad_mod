@@ -1,0 +1,18 @@
+(module CRYSTAL-SMD-5-3_2 (layer F.Cu)
+  (fp_text reference CRYSTAL-SMD-5-3_2 (at 0 0) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -3.5 2.5) (end -3.25 2.5) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -2 1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2 1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 2 -1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at -2 -1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
+  (model smd/XTAL_5_32.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
+)

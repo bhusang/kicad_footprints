@@ -1,0 +1,1 @@
+# kicad_dip.pretty

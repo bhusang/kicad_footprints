@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_XT60
+D Power connector
+K connector, XT60, conn
+$ENDCMP
+#
+$CMP CONN_XT60_Female
+D Power connector
+K connector, XT60, conn
+$ENDCMP
+#
+$CMP CONN_XT60_Male
+D Power connector
+K connector, XT60, conn
+$ENDCMP
+#
+#End Doc Library

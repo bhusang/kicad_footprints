@@ -1,0 +1,9 @@
+(module TP-1mm (layer F.Cu) (tedit 55158235)
+  (fp_text reference VAL** (at 0 -1.524) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TP-1mm (at 0 -1.524) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Paste F.Mask))
+)

@@ -1,0 +1,13 @@
+(module Fate_Logo (layer F.Cu) (tedit 5DBECF72)
+  (fp_text reference G*** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Fate_Logo (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy -1.25 -1.25) (xy -1.25 1.25) (xy -0.875 1.25) (xy -0.875 -1.25)) (layer F.SilkS) (width 0.1))
+  (fp_poly (pts (xy -1.25 -1.25) (xy 1.25 -1.25) (xy 1.25 -0.875) (xy -1.25 -0.875)) (layer F.SilkS) (width 0.1))
+  (fp_poly (pts (xy -1.25 -0.1875) (xy 1.25 -0.1875) (xy 1.25 0.1875) (xy -1.25 0.1875)) (layer F.SilkS) (width 0.1))
+  (fp_poly (pts (xy -0.1875 -1.25) (xy -0.1875 1.25) (xy 0.1875 1.25) (xy 0.1875 -1.25)) (layer F.SilkS) (width 0.1))
+  (fp_poly (pts (xy -0.1875 0.875) (xy 1.25 0.875) (xy 1.25 1.25) (xy -0.1875 1.25)) (layer F.SilkS) (width 0.1))
+)

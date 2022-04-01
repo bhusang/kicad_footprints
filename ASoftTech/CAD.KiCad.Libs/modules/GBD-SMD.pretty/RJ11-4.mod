@@ -1,0 +1,69 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+RJ11-4P
+$EndINDEX
+$MODULE RJ11-4P
+Po 0 0 0 15 00000000 00000000 ~~
+Li RJ11-4P
+Cd 
+Sc 00000000
+At STD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0 0 1 0.9 0 0.05 N H 21 "RJ11-4P"
+T1 0 0 1 0.9 0 0.05 N H 21 "VAL**"
+DS 0 0 11 0 0.127 21
+DS 11 0 11 18 0.127 21
+DS 11 18 0 18 0.127 21
+DS 0 18 0 0 0.127 21
+DS 2.5 18 2.5 16 0.127 24
+DS 2.5 16 8 16 0.127 24
+DS 8 16 8 18 0.127 24
+$PAD
+Sh "11" R 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 4.05 1.01
+$EndPAD
+$PAD
+Sh "44" R 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 6 3.45
+$EndPAD
+$PAD
+Sh "22" R 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 7.01 1.01
+$EndPAD
+$PAD
+Sh "33" R 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 3.01 3.5
+$EndPAD
+$PAD
+Sh "Hole" C 3.2 3.2 0 0 0
+Dr 3.2 0 0
+At HOLE N 00E0FFFF
+Po 1 10
+$EndPAD
+$PAD
+Sh "Hole" C 3.2 3.2 0 0 0
+Dr 3.2 0 0
+At HOLE N 00E0FFFF
+Po 10 10
+$EndPAD
+$EndMODULE RJ11-4P

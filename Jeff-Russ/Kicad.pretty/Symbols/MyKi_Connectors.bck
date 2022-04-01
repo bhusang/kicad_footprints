@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS_Jack
+D TS Jack
+K audio TS jack
+$ENDCMP
+#
+$CMP TS_Jack_Switched
+D TS Jack with Switched
+K audio TS jack switched switch
+$ENDCMP
+#
+#End Doc Library

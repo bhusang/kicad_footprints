@@ -1,0 +1,4 @@
+logos.pretty
+============
+
+KiCAD logos

@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4013
+D Dual D  FlipFlop, Set & reset
+K CMOS DFF
+F http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF
+$ENDCMP
+#
+$CMP 4015
+D CMOS Dual 4-Stage Static Shift Register With Serial Input/Parallel Output
+K CMOS DFF
+F http://www.intersil.com/en/products/space-and-harsh-environment/rad-hard-digital/rh-shift-registers/CD4015BMS.html?utm_source=supplyFrame&utm_medium=SEP
+$ENDCMP
+#
+#End Doc Library

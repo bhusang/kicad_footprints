@@ -1,0 +1,9 @@
+(module VIA_STICH_0.5 (layer F.Cu) (tedit 58787447)
+  (fp_text reference REF** (at 0.02032 3.8862) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VIA_STICH_0.5 (at -0.00254 -3.3909) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.508 0.508) (drill 0.254) (layers *.Cu))
+)

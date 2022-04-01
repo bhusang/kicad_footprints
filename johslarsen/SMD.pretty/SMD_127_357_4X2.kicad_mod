@@ -1,0 +1,16 @@
+(module SMD_127_357_4X2 (layer F.Cu) (tedit 554BCCE7)
+  (fp_text reference Ref** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 3 smd rect (at -2.032 -0.635) (size 3.556 0.635) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at 2.032 -0.635) (size 3.556 0.635) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.032 -1.905) (size 3.556 0.635) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -2.032 -1.905) (size 3.556 0.635) (layers F.Cu F.Paste F.Mask))
+  (pad 7 smd rect (at -2.032 1.905) (size 3.556 0.635) (layers F.Cu F.Paste F.Mask))
+  (pad 8 smd rect (at 2.032 1.905) (size 3.556 0.635) (layers F.Cu F.Paste F.Mask))
+  (pad 6 smd rect (at 2.032 0.635) (size 3.556 0.635) (layers F.Cu F.Paste F.Mask))
+  (pad 5 smd rect (at -2.032 0.635) (size 3.556 0.635) (layers F.Cu F.Paste F.Mask))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC847CE6327HTSA1
+D NPN BJT
+K NPN BJT Transistor BC847
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+#End Doc Library

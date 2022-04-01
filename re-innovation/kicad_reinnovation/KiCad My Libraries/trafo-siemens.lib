@@ -1,0 +1,462 @@
+EESchema-LIBRARY Version 2.3  20/05/2007-15:09:24
+# Converted with eagle2kicad.ulp Version 0.9
+# Device count = 15
+#
+# Dev Name: E30/7SPW
+# Package Name: E30/7
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF E30/7SPW L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: SPW1H
+F0 "L" -100 450 50 H V L B
+F1 "E30/7SPW" -110 -650 50 H V L B
+F2 "trafo-siemens-E30/7" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 15 -400 15 400
+P 2 1 0 0 -15 -400 -15 400
+P 2 1 0 0 100 -500 100 -475
+P 2 1 0 0 100 -500 -100 -500
+P 2 1 0 0 -100 -500 -100 -475
+S -135 100 -65 400 1 1 0 F
+S -135 -400 -65 -100 1 1 0 F
+S 65 -100 135 400 1 1 0 F
+C -130 435 5 1 1 0 F
+C 130 -135 5 1 1 0 F
+C -130 -65 5 1 1 0 F
+T 1 -169 234 39 0 1 0 W1
+T 1 180 34 39 0 1 0 W2
+T 1 -169 -266 39 0 1 0 W3
+T 0 40 -530 40 0 1 0 Abschirmband
+X 1A 1 -300 400 200 R 40 40 1 1 P 
+X 1E 3 -300 100 200 R 40 40 1 1 P 
+X 2A 10 300 -100 200 L 40 40 1 1 P 
+X 2E 6 300 400 200 L 40 40 1 1 P 
+X 3A 4 -300 -100 200 R 40 40 1 1 P 
+X 3E 2 -300 -400 200 R 40 40 1 1 P 
+X SCH 9 300 -500 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: RM6
+# Package Name: RM6-4
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF RM6 L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: DRK
+F0 "L" -150 90 50 H V L B
+F1 "RM6" -155 -120 50 H V L B
+F2 "trafo-siemens-RM6-4" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -150 65 150 65
+S -150 -35 150 35 1 1 0 F
+X 1 2 -300 0 200 R 40 40 1 1 P 
+X 2 6 300 0 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: RM6-2
+# Package Name: RM5-4
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF RM6-2 L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: DR2W
+F0 "L" -150 160 50 H V L B
+F1 "RM6-2" -150 -220 50 H V L B
+F2 "trafo-siemens-RM5-4" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -150 0 150 0
+S -150 65 150 135 1 1 0 F
+S -150 -135 150 -65 1 1 0 F
+C -155 -45 5 1 1 0 F
+C -155 45 5 1 1 0 F
+X W1A 2 -300 100 200 R 40 40 1 1 P 
+X W1E 6 300 100 200 L 40 40 1 1 P 
+X W2A 3 -300 -100 200 R 40 40 1 1 P 
+X W2E 5 300 -100 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: RM6-A
+# Package Name: RM5-4
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF RM6-A L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: TR-S1
+F0 "L" -105 -60 50 V V L B
+F1 "RM6-A" 125 -150 50 V V L B
+F2 "trafo-siemens-RM5-4" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 65 -150 65 150
+S -35 -150 35 150 1 1 0 F
+C -50 -160 5 1 1 0 F
+X 1 2 0 -300 200 U 40 40 1 1 P 
+X 2 6 -200 -100 200 R 40 40 1 1 P 
+X 3 3 0 300 200 D 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: RM10/3B
+# Package Name: RM10-12B
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF RM10/3B L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: SPW2U
+F0 "L" -100 550 50 H V L B
+F1 "RM10/3B" -110 -650 50 H V L B
+F2 "trafo-siemens-RM10-12B" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -15 -400 -15 500
+P 2 1 0 0 15 -400 15 500
+P 2 1 0 0 100 -500 100 -475
+P 2 1 0 0 100 -500 -100 -500
+P 2 1 0 0 -100 -500 -100 -475
+S 65 200 135 500 1 1 0 F
+S 65 -400 135 -100 1 1 0 F
+S -135 0 -65 500 1 1 0 F
+C -130 540 5 1 1 0 F
+C 130 160 5 1 1 0 F
+C 130 -440 5 1 1 0 F
+T 1 -169 234 39 0 1 0 W1
+T 1 180 -266 39 0 1 0 W2
+T 1 180 334 39 0 1 0 W3
+T 0 40 -530 40 0 1 0 Abschirmband
+X 1A 1 -300 500 200 R 40 40 1 1 P 
+X 1E 3 -300 0 200 R 40 40 1 1 P 
+X 2A 7 300 -400 200 L 40 40 1 1 P 
+X 2E 12 300 -100 200 L 40 40 1 1 P 
+X 3A 4 300 200 200 L 40 40 1 1 P 
+X 3E 6 300 500 200 L 40 40 1 1 P 
+X SCH 11 300 -500 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: RM10/4B
+# Package Name: RM10-12B
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF RM10/4B L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: SPW2UH
+F0 "L" -100 550 50 H V L B
+F1 "RM10/4B" -130 -740 50 H V L B
+F2 "trafo-siemens-RM10-12B" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -15 -500 -15 500
+P 2 1 0 0 15 -500 15 500
+P 2 1 0 0 100 -600 100 -575
+P 2 1 0 0 100 -600 -100 -600
+P 2 1 0 0 -100 -600 -100 -575
+S -135 -500 -65 -200 1 1 0 F
+S -135 100 -65 500 1 1 0 F
+S 65 100 135 500 1 1 0 F
+S 65 -500 135 -100 1 1 0 F
+C -130 -540 5 1 1 0 F
+C -130 545 5 1 1 0 F
+C 130 60 5 1 1 0 F
+C 130 -540 5 1 1 0 F
+T 1 -169 234 39 0 1 0 W1
+T 1 180 -366 39 0 1 0 W2
+T 1 180 234 39 0 1 0 W3
+T 1 -169 -366 39 0 1 0 W4
+T 0 40 -630 40 0 1 0 Abschirmband
+X 1A 1 -300 500 200 R 40 40 1 1 P 
+X 1E 3 -300 100 200 R 40 40 1 1 P 
+X 2A 7 300 -500 200 L 40 40 1 1 P 
+X 2E 9 300 -100 200 L 40 40 1 1 P 
+X 3A 11 300 100 200 L 40 40 1 1 P 
+X 3E 12 300 500 200 L 40 40 1 1 P 
+X 4A 6 -300 -500 200 R 40 40 1 1 P 
+X 4E 5 -300 -200 200 R 40 40 1 1 P 
+X SCH 10 300 -600 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: SK9
+# Package Name: SK9
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF SK9 L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: DRK
+F0 "L" -150 90 50 H V L B
+F1 "SK9" -155 -120 50 H V L B
+F2 "trafo-siemens-SK9" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -150 65 150 65
+S -150 -35 150 35 1 1 0 F
+X 1 3 -300 0 200 R 40 40 1 1 P 
+X 2 4 300 0 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: SK9-2
+# Package Name: SK9
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF SK9-2 L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: DR2W
+F0 "L" -150 160 50 H V L B
+F1 "SK9-2" -150 -220 50 H V L B
+F2 "trafo-siemens-SK9" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -150 0 150 0
+S -150 65 150 135 1 1 0 F
+S -150 -135 150 -65 1 1 0 F
+C -155 -45 5 1 1 0 F
+C -155 45 5 1 1 0 F
+X W1A 1 -300 100 200 R 40 40 1 1 P 
+X W1E 2 300 100 200 L 40 40 1 1 P 
+X W2A 3 -300 -100 200 R 40 40 1 1 P 
+X W2E 4 300 -100 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: SK9-A
+# Package Name: SK9
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF SK9-A L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: TR-S1
+F0 "L" -105 -60 50 V V L B
+F1 "SK9-A" 125 -150 50 V V L B
+F2 "trafo-siemens-SK9" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 65 -150 65 150
+S -35 -150 35 150 1 1 0 F
+C -50 -160 5 1 1 0 F
+X 1 4 0 -300 200 U 40 40 1 1 P 
+X 2 3 -200 -100 200 R 40 40 1 1 P 
+X 3 2 0 300 200 D 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: SK11
+# Package Name: SK11
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF SK11 L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: DRK
+F0 "L" -150 90 50 H V L B
+F1 "SK11" -155 -120 50 H V L B
+F2 "trafo-siemens-SK11" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -150 65 150 65
+S -150 -35 150 35 1 1 0 F
+X 1 3 -300 0 200 R 40 40 1 1 P 
+X 2 4 300 0 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: SK11-A
+# Package Name: SK11
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF SK11-A L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: TR-S1
+F0 "L" -105 -60 50 V V L B
+F1 "SK11-A" 125 -150 50 V V L B
+F2 "trafo-siemens-SK11" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 65 -150 65 150
+S -35 -150 35 150 1 1 0 F
+C -50 -160 5 1 1 0 F
+X 1 4 0 -300 200 U 40 40 1 1 P 
+X 2 3 -200 -100 200 R 40 40 1 1 P 
+X 3 2 0 300 200 D 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: SK11-T
+# Package Name: SK11
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF SK11-T L 0 40 Y Y 1 L N
+# Gate Name: 1
+# Symbol Name: TR-S2
+F0 "L" 195 -150 50 V V L B
+F1 "SK11-T" 290 -150 50 V V L B
+F2 "trafo-siemens-SK11" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 0 -150 0 150
+P 2 1 0 0 -300 100 -125 100
+P 2 1 0 0 100 200 -300 200
+P 2 1 0 0 100 150 100 200
+S -135 -150 -65 150 1 1 0 F
+S 65 -150 135 150 1 1 0 F
+C -300 200 10 1 1 0 N
+C 125 180 5 1 1 0 F
+C -165 125 5 1 1 0 F
+X 1 1 100 -300 200 U 40 40 1 1 P 
+X 2 2 -100 -300 200 U 40 40 1 1 P 
+X 3 3 -300 300 200 D 40 40 1 1 P 
+X 4 4 -100 300 200 D 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: ST-D2
+# Package Name: ST-D2
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF ST-D2 L 0 40 Y Y 1 L N
+# Gate Name: G$1
+# Symbol Name: TR-D2
+F0 "L" -100 550 50 H V L B
+F1 "ST-D2" -100 -650 50 H V L B
+F2 "trafo-siemens-ST-D2" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -15 -400 -15 500
+P 2 1 0 0 15 -400 15 500
+P 2 1 0 0 100 -500 100 -475
+P 2 1 0 0 100 -500 -100 -500
+P 2 1 0 0 -100 -500 -100 -475
+S -135 -400 -65 -100 1 1 0 F
+S -135 100 -65 500 1 1 0 F
+S 65 100 135 500 1 1 0 F
+C -130 -440 5 1 1 0 F
+C -130 545 5 1 1 0 F
+C 130 60 5 1 1 0 F
+T 1 -169 234 39 0 1 0 W1
+T 1 180 234 39 0 1 0 W2
+T 1 -169 -266 39 0 1 0 W3
+T 0 80 -530 40 0 1 0 Abschirmband
+X 1A 2 -300 500 200 R 40 40 1 1 P 
+X 1E 1 -300 100 200 R 40 40 1 1 P 
+X 2A 12 300 100 200 L 40 40 1 1 P 
+X 2E 14 300 500 200 L 40 40 1 1 P 
+X 3A 6 -300 -400 200 R 40 40 1 1 P 
+X 3E 5 -300 -100 200 R 40 40 1 1 P 
+X SCH 10 100 -500 100 L 40 40 1 1 P 
+X SCH1 13 300 -500 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: ST-D3
+# Package Name: ST-D3
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF ST-D3 L 0 40 Y Y 1 L N
+# Gate Name: G$1
+# Symbol Name: SPW1UH
+F0 "L" -100 550 50 H V L B
+F1 "ST-D3" -200 -640 50 H V L B
+F2 "trafo-siemens-ST-D3" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -15 -400 -15 500
+P 2 1 0 0 15 -400 15 500
+P 2 1 0 0 100 -500 100 -475
+P 2 1 0 0 100 -500 -100 -500
+P 2 1 0 0 -100 -500 -100 -475
+S -135 -400 -65 -100 1 1 0 F
+S -135 100 -65 500 1 1 0 F
+S 65 100 135 500 1 1 0 F
+C -130 -440 5 1 1 0 F
+C -130 545 5 1 1 0 F
+C 130 60 5 1 1 0 F
+T 1 -169 234 39 0 1 0 W1
+T 1 180 234 39 0 1 0 W2
+T 1 -169 -266 39 0 1 0 W3
+T 0 40 -530 40 0 1 0 Abschirmband
+X 1A 5 -300 500 200 R 40 40 1 1 P 
+X 1E 1 -300 100 200 R 40 40 1 1 P 
+X 2A 14 300 100 200 L 40 40 1 1 P 
+X 2E 13 300 500 200 L 40 40 1 1 P 
+X 3A 4 -300 -400 200 R 40 40 1 1 P 
+X 3E 2 -300 -100 200 R 40 40 1 1 P 
+X SCH 12 300 -500 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: ST-D4
+# Package Name: ST-D4
+# Dev Tech: ''
+# Dev Prefix: L
+# Gate count = 1
+#
+DEF ST-D4 L 0 40 Y Y 1 L N
+# Gate Name: G$1
+# Symbol Name: TR-D4
+F0 "L" -100 550 50 H V L B
+F1 "ST-D4" -110 -660 50 H V L B
+F2 "trafo-siemens-ST-D4" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -15 -400 -15 500
+P 2 1 0 0 100 500 100 400
+P 2 1 0 0 100 -100 100 0
+P 2 1 0 0 15 -400 15 500
+P 2 1 0 0 100 -500 100 -475
+P 2 1 0 0 100 -500 -100 -500
+P 2 1 0 0 -100 -500 -100 -475
+S -135 -400 -65 -100 1 1 0 F
+S -135 100 -65 500 1 1 0 F
+S 65 0 135 400 1 1 0 F
+C -130 -440 5 1 1 0 F
+C -130 545 5 1 1 0 F
+C 130 -40 5 1 1 0 F
+T 1 -169 234 39 0 1 0 W1
+T 1 180 134 39 0 1 0 W2
+T 1 -169 -266 39 0 1 0 W3
+T 0 80 -530 40 0 1 0 Abschirmband
+X 1A 1 -300 500 200 R 40 40 1 1 P 
+X 1E 5 -300 100 200 R 40 40 1 1 P 
+X 2A 12 300 0 200 L 40 40 1 1 P 
+X 2A1 14 300 -100 200 L 40 40 1 1 P 
+X 2E 2 300 500 200 L 40 40 1 1 P 
+X 2E1 4 300 400 200 L 40 40 1 1 P 
+X 3A 13 -300 -400 200 R 40 40 1 1 P 
+X 3E 11 -300 -100 200 R 40 40 1 1 P 
+X SCH 10 300 -500 200 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#End Library

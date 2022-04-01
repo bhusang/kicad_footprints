@@ -1,0 +1,24 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Audio-Jack-2_Switch-custom
+D 2-pin audio jack receptable (mono/TS connector) with switching contact
+K audio jack receptable mono headphones phone TS connector
+F ~
+$ENDCMP
+#
+$CMP FDMA1025P
+D Transistor P-MOSFET
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP MAX14778
+D Dual 4 to 1 Multiplexer
+K CMOS MUX MUX4
+$ENDCMP
+#
+$CMP SPV1050
+D Ultralow power energy harvester and battery charger
+K boost charger battery
+$ENDCMP
+#
+#End Doc Library

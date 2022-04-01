@@ -1,0 +1,21 @@
+(module KEM-3 (layer F.Cu) (tedit 5A9A7311)
+  (descr "Reed KEM-3")
+  (fp_text reference SW1 (at 0 0.05) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (fp_text value REED_SW (at 0.05 0.5) (layer F.SilkS) hide
+    (effects (font (size 0.1524 0.1524) (thickness 0.0305)))
+  )
+  (fp_line (start 7.5 1.5) (end -7.6 1.5) (layer F.Fab) (width 0.1))
+  (fp_line (start -7.5 -1.5) (end 7.6 -1.5) (layer F.Fab) (width 0.1))
+  (fp_arc (start 7.5 0) (end 7.5 -1.5) (angle 180) (layer F.Fab) (width 0.1))
+  (fp_arc (start -7.5 0) (end -7.5 1.5) (angle 180) (layer F.Fab) (width 0.1))
+  (pad 1 smd rect (at -12.5 -0.75) (size 5 1) (layers F.Cu F.Mask))
+  (pad 2 smd rect (at -12.5 0.75) (size 5 1) (layers F.Cu F.Mask))
+  (pad 3 smd rect (at 12.5 0) (size 5 1) (layers F.Cu F.Mask))
+  (model smd/capacitors/c_0402.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

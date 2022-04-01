@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IS62WV25616DBLL-45TLI
+D SRAM, 256K X 16, 3V, 45NS, 44TSOP2
+K SRAM 256KB x 16 High Speed CMOS Static RAM
+F http://uk.farnell.com/integrated-silicon-solution-issi/is62wv25616dbll-45tli/sram-256k-x-16-3v-45ns-44tsop2/dp/1869970?ost=IS62WV25616DBLL-45TLI&selectedCategoryId=&categoryNameResp=All%2BCategories&searchView=table&iscrfnonsku=false
+$ENDCMP
+#
+#End Doc Library

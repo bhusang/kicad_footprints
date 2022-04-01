@@ -1,0 +1,8 @@
+(module G3VM-62F1 (layer F.Cu) (tedit 570906BB)
+  (fp_text reference REF** (at -12.7 6.35) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value G3VM-62F1 (at -10.16 -5.08) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

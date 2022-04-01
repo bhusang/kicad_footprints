@@ -1,0 +1,10 @@
+(module TEST_POINT2 (layer F.Cu) (tedit 5B1FFEA9)
+  (fp_text reference REF** (at 0.3 -1.3) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.1)))
+  )
+  (fp_text value TP2 (at 0 3) (layer F.Fab) hide
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (fp_circle (center 0 0) (end 0.762 0) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at 0 0) (size 1.397 1.397) (drill 0.889) (layers *.Cu *.Mask))
+)

@@ -1,0 +1,9 @@
+(module TP_VIA_PHASE (layer F.Cu) (tedit 57FB5C35)
+  (fp_text reference TP_VIA_PHASE (at 0 0.95) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0.05 -1.45) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+)

@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3  20/05/2007-15:09:15
+# Converted with eagle2kicad.ulp Version 0.9
+# Device count = 1
+#
+# Dev Name: TCM809
+# Package Name: SOT23B-3
+# Dev Tech: ''
+# Dev Prefix: IC
+# Gate count = 1
+#
+DEF TCM809 IC 0 40 Y Y 1 L N
+# Gate Name: G$1
+# Symbol Name: TCM809
+F0 "IC" 100 250 50 H V L B
+F1 "TCM809" 100 -300 50 H V L B
+F2 "telcom-SOT23B-3" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -200 200 200 200
+P 2 1 0 0 200 200 200 -200
+P 2 1 0 0 200 -200 -200 -200
+P 2 1 0 0 -200 -200 -200 200
+T 0 10 130 60 0 1 0 VCC
+T 0 10 -130 60 0 1 0 GND
+X GND 1 0 -300 100 U 40 40 1 1 W 
+X RES\ 2 300 0 100 L 40 40 1 1 O 
+X VCC 3 0 300 100 D 40 40 1 1 W 
+ENDDRAW
+ENDDEF
+
+#End Library

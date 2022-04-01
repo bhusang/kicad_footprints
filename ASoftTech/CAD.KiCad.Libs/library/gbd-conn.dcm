@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SAMTEC_SFM-120-02-S-D-A
+D SAMTEC 40 Pin Female Connector SMD
+K connector, SAMTEC
+F http://www.digikey.co.uk/product-detail/en/samtec-inc/SFM-120-02-S-D-A/SAM8967-ND/2664637
+$ENDCMP
+#
+$CMP SAMTEC_SFM-120-L3-S-D-A
+D SAMTEC 40 Pin Female Connector Thru Hole
+K connector, SAMTEC
+F http://uk.farnell.com/samtec/sfm-120-l3-s-d-a/socket-1-27mm-lif-2x20way/dp/1802293?ost=SAMTEC_SFM-120-L3-L-D-A&selectedCategoryId=&categoryNameResp=All%2BCategories&searchView=table&iscrfnonsku=false
+$ENDCMP
+#
+$CMP SAMTEC_TFM-120-01-L-D-A
+D SAMTEC 40 Pin Male Connector Thru Hole
+K connector, SAMTEC
+F http://uk.farnell.com/samtec/tfm-120-01-l-d-a/header-1-27mm-2x20way/dp/1801981
+$ENDCMP
+#
+$CMP SAMTEC_TFM-120-02-S-D-WT
+D SAMTEC 40 Pin Male Connector SMD
+K connector, SAMTEC
+F http://www.digikey.co.uk/product-detail/en/samtec-inc/TFM-120-02-S-D-WT/SAM8707-ND/1785956
+$ENDCMP
+#
+$CMP SWD_Debug_Connector
+D SWD Jtag Connector, double row, 02x05
+K connector, SWD, ARM_10_PIN_SMT, ARM_10_PIN
+$ENDCMP
+#
+#End Doc Library

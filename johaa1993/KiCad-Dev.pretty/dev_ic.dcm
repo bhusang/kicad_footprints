@@ -1,0 +1,58 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G08
+F http://www.nxp.com/documents/data_sheet/74LVC1G08.pdf?
+$ENDCMP
+#
+$CMP ADS7828
+K I2C ADC
+$ENDCMP
+#
+$CMP INA139
+K shunt current monitor 40V SOT-23
+F http://www.ti.com/lit/ds/symlink/ina139.pdf
+$ENDCMP
+#
+$CMP INA169
+K shunt current monitor 40V SOT-23
+F http://www.ti.com/lit/ds/symlink/ina139.pdf
+$ENDCMP
+#
+$CMP LM3490IM5-12/NOPB
+K 100mA SOT-23 12V enable
+F http://www.ti.com/lit/ds/symlink/lm3490.pdf
+$ENDCMP
+#
+$CMP LM5050
+F http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf
+$ENDCMP
+#
+$CMP MIC5014
+K MOSFET driver
+$ENDCMP
+#
+$CMP MIC5015
+K MOSFET driver
+$ENDCMP
+#
+$CMP NSI45020AT1G
+F http://www.onsemi.com/pub_link/Collateral/NSI45020A-D.PDF
+$ENDCMP
+#
+$CMP P82B96
+F http://www.farnell.com/datasheets/1648267.pdf
+$ENDCMP
+#
+$CMP PCA9698
+K I2C GPIO
+$ENDCMP
+#
+$CMP SC18IS602B
+K I2C SPI interface
+$ENDCMP
+#
+$CMP SN74LVC4245A
+K Buffer 3.3V 5V
+$ENDCMP
+#
+#End Doc Library

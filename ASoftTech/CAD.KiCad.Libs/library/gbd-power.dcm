@@ -1,0 +1,48 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FGND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GND1
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GND2
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GND3
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GND4
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP VCC1
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+$CMP VCC2
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+$CMP VCC4
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

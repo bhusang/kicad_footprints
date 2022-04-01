@@ -1,0 +1,13 @@
+(module XTAL_6036 (layer F.Cu)
+  (attr smd)
+  (fp_text reference XTAL_6036 (at 0 0) (layer F.SilkS)
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (pad 1 smd oval (at -2.19964 1.19888) (size 1.99898 1.39954) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.19964 1.19888) (size 1.80086 1.39954) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 2.19964 -1.19888) (size 1.80086 1.39954) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at -2.19964 -1.19888) (size 1.80086 1.39954) (layers F.Cu F.Paste F.Mask))
+)

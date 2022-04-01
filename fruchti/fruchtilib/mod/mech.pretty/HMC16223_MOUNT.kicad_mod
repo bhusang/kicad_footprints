@@ -1,0 +1,16 @@
+(module HMC16223_MOUNT (layer F.Cu)
+  (fp_text reference REF** (at 0 -3.81) (layer F.SilkS) hide
+    (effects (font (thickness 0.25)))
+  )
+  (fp_text value VAL** (at 0 3.81) (layer F.SilkS) hide
+    (effects (font (thickness 0.25)))
+  )
+  (fp_line (start -26.5 -10) (end -26.5 10) (layer F.SilkS) (width 0.25))
+  (fp_line (start -26.5 10) (end 26.5 10) (layer F.SilkS) (width 0.25))
+  (fp_line (start 26.5 10) (end 26.5 -10) (layer F.SilkS) (width 0.25))
+  (fp_line (start 26.5 -10) (end -26.5 -10) (layer F.SilkS) (width 0.25))
+  (pad 1 thru_hole circle (at 24 -7.5) (size 2.5 2.5) (drill 2.5) (layers *.Cu))
+  (pad 1 thru_hole circle (at 24 7.5) (size 2.5 2.5) (drill 2.5) (layers *.Cu))
+  (pad 1 thru_hole circle (at -24 7.5) (size 2.5 2.5) (drill 2.5) (layers *.Cu))
+  (pad 1 thru_hole circle (at -24 -7.5) (size 2.5 2.5) (drill 2.5) (layers *.Cu))
+)

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP602
+D 2.7V to 6.0V Single Supply CMOS Op Amps
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/OpAmp/Rail_to_rail/MCIP_MCP601-602-603-604.pdf
+$ENDCMP
+#
+#End Doc Library

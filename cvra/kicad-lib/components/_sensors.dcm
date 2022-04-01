@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP H3LIS331DL
+D high-g accelerometer
+K acc
+$ENDCMP
+#
+$CMP MPRLS0015PA0000SA
+D Honeywell MicroPressure Board Mount Pressure Sensors
+F https://sensing.honeywell.com/honeywell-sensing-micropressure-board-mount-pressure-mpr-series-datasheet-32332628.pdf
+$ENDCMP
+#
+#End Doc Library

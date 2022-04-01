@@ -1,0 +1,13 @@
+(module CONNECTOR_RF_SMA_END_LAUNCH (layer F.Cu) (tedit 58E2ACF3)
+  (fp_text reference REF** (at -1.905 -3.175) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (fp_text value CONNECTOR_RF_SMA_END_LAUNCH (at 8.89 -5.08) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 0 0) (size 1.524 4.064) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -2.54 0) (size 1.524 4.064) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 2.54 0) (size 1.524 4.064) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at 2.54 0) (size 1.524 4.064) (layers B.Cu F.Paste F.Mask))
+  (pad 5 smd rect (at -2.54 0) (size 1.524 4.064) (layers B.Cu F.Paste F.Mask))
+)

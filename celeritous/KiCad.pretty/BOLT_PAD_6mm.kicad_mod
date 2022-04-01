@@ -1,0 +1,10 @@
+(module BOLT_PAD_6mm (layer F.Cu) (tedit 59BC22D5)
+  (fp_text reference P1 (at 7 4) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value BOLT_PAD_6mm (at 0.5 -5.9) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 10.5 10.5) (drill 6) (layers *.Cu *.Mask)
+    (zone_connect 2))
+)

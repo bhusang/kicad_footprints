@@ -1,0 +1,124 @@
+#VRML V2.0 utf8
+#model HDR1x_
+DEF body Transform {
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.2 0.3
+          specularColor 0.2 0.2 0.3
+          emissiveColor 0.0 0.0 0.0
+          ambientIntensity 0.9
+          transparency 0.0
+          shininess 1.0
+        }
+      }
+      geometry IndexedFaceSet {
+        normalPerVertex TRUE
+        coord Coordinate { point [
+          1.27   6.35   0.0,
+          -1.27 6.35   0.0,
+          -1.27 -6.35 0.0,
+          1.27   -6.35 0.0,
+          1.27   6.35   1,
+          -1.27 6.35   1,
+          -1.27 -6.35 1,
+          1.27   -6.35 1 ] }
+        coordIndex [
+          3, 2, 1, 0, -1,
+          4, 5, 6, 7, -1,
+          0, 4, 7, 3, -1,
+          1, 5, 4, 0, -1,
+          2, 6, 5, 1, -1,
+          3, 7, 6, 2, -1 ]
+      }
+    }
+  ]
+}
+DEF pins Transform {
+  children [
+    Shape {
+      appearance Appearance {
+        material DEF metal Material {
+          diffuseColor 0.9 0.7 0.5
+          specularColor 0.9 0.7 0.5
+          emissiveColor 0.0 0.0 0.0
+          ambientIntensity 0.9
+          transparency 0.0
+          shininess 0.9
+        }
+      }
+      geometry IndexedFaceSet {
+        normalPerVertex TRUE
+        coord Coordinate { point [
+          0.4   -0.6 -2.0,
+          -0.4 -0.6 -2.0,
+          -0.4 -1.4 -2.0,
+          0.4   -1.4 -2.0,
+          0.4   -0.6 0.0,
+          -0.4 -0.6 0.0,
+          -0.4 -1.4 0.0,
+          0.4   -1.4 0.0,
+          0.4   -0.6 1,
+          -0.4 -0.6 1,
+          -0.4 -1.4 1,
+          0.4   -1.4 1,
+          0.4   -0.6 6,
+          -0.4 -0.6 6,
+          -0.4 -1.4 6,
+          0.4   -1.4 6 ] }
+        coordIndex [
+          3, 2, 1, 0, -1,
+          4, 5, 6, 7, -1,
+          0, 4, 7, 3, -1,
+          1, 5, 4, 0, -1,
+          2, 6, 5, 1, -1,
+          3, 7, 6, 2, -1,
+          11, 10, 9, 8, -1,
+          12, 13, 14, 15, -1,
+          8, 12, 15, 11, -1,
+          9, 13, 12, 8, -1,
+          10, 14, 13, 9, -1,
+          11, 15, 14, 10, -1 ]
+      }
+    }
+    Shape {
+      appearance Appearance {
+	    material USE metal
+	  }
+      geometry IndexedFaceSet {
+        normalPerVertex TRUE
+        coord Coordinate { point [
+          0.4   1.4 -2.0,
+          -0.4 1.4 -2.0,
+          -0.4 0.6 -2.0,
+          0.4   0.6 -2.0,
+          0.4   1.4 0.0,
+          -0.4 1.4 0.0,
+          -0.4 0.6 0.0,
+          0.4   0.6 0.0,
+          0.4   1.4 1,
+          -0.4 1.4 1,
+          -0.4 0.6 1,
+          0.4   0.6 1,
+          0.4   1.4 6,
+          -0.4 1.4 6,
+          -0.4 0.6 6,
+          0.4   0.6 6 ] }
+        coordIndex [
+          3, 2, 1, 0, -1,
+          4, 5, 6, 7, -1,
+          0, 4, 7, 3, -1,
+          1, 5, 4, 0, -1,
+          2, 6, 5, 1, -1,
+          3, 7, 6, 2, -1,
+          11, 10, 9, 8, -1,
+          12, 13, 14, 15, -1,
+          8, 12, 15, 11, -1,
+          9, 13, 12, 8, -1,
+          10, 14, 13, 9, -1,
+          11, 15, 14, 10, -1 ]
+      }
+    }
+  ]
+}
