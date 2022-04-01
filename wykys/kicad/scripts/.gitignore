@@ -1,9 +1,0 @@
-# generated scripts
-klib-update.sh
-
-# list of folders
-.venv
-kicad-library-utils
-
-# VS Code
-.vscde

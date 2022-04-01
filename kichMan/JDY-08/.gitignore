@@ -1,4 +1,0 @@
-// File copy FreeCAD
-*.FCStd[0-9]*
-
-/temp/*

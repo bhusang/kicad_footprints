@@ -1,7 +1,0 @@
-#################
-## KiCad Library Excludes
-#################
-
-KiCad-Libraries-master/
-ignored/*
-Datasheets/*

@@ -1,1 +1,0 @@
-Kicad_Akiyuki_Footprint.pretty

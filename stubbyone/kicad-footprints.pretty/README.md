@@ -1,1 +1,0 @@
-# kicad-footprints.pretty
